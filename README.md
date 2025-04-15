@@ -67,6 +67,7 @@ Communication is a basic human need, and for individuals who are deaf or mute, e
 ## Sample Output
 
 Displays recognized gesture text on screen through a real-time webcam feed.
+![image](https://github.com/user-attachments/assets/43cb77b8-0ad3-45d2-a04a-8021fb7e3190)
 
 ## Dataset
 
