@@ -12,33 +12,33 @@ Communication is a basic human need, and for individuals who are deaf or mute, e
 
 ## Key Features
 
-Real-time gesture recognition using webcam input.
+- Real-time gesture recognition using webcam input.
 
-Classification of ASL alphabets and common gestures.
+- Classification of ASL alphabets and common gestures.
 
-Web-based deployment using Node.js.
+- Web-based deployment using Node.js.
 
-High model accuracy using CNN, ANN, LSTM, Random Forest, and XGBoost.
+- High model accuracy using CNN, ANN, LSTM, Random Forest, and XGBoost.
 
 ## Technologies Used
 
-Programming: Python, JavaScript.
+- Programming: Python, JavaScript.
 
-Libraries/Frameworks: OpenCV, TensorFlow, Keras, Pandas, Power Query.
+- Libraries/Frameworks: OpenCV, TensorFlow, Keras, Pandas, Power Query.
 
-Machine Learning Models: CNN, ANN, LSTM, Random Forest, XGBoost.
+- Machine Learning Models: CNN, ANN, LSTM, Random Forest, XGBoost.
 
-Deployment: Node.js web application.
+- Deployment: Node.js web application.
 
 ## Methodology
 
-Image Processing,
+- Image Processing.
 
-Captured hand gesture images using webcam.
+- Captured hand gesture images using webcam.
 
-Applied HSV masking and grayscale conversion.
+- Applied HSV masking and grayscale conversion.
 
-Resized to 28x28 and normalized before storing in CSV format.
+- Resized to 28x28 and normalized before storing in CSV format.
 
 ## Model Creation
 
