@@ -42,27 +42,27 @@ Communication is a basic human need, and for individuals who are deaf or mute, e
 
 ## Model Creation
 
-CNN used as the core model for image classification.
+1. CNN used as the core model for image classification.
 
-Compared performance with Random Forest, XGBoost, LSTM, and ANN.
+2. Compared performance with Random Forest, XGBoost, LSTM, and ANN.
 
-Used Keras for model building; trained on 85% of data, tested on 15%.
+3. Used Keras for model building; trained on 85% of data, tested on 15%.
 
-Real-Time Application.
+4. Real-Time Application.
 
-Hand landmarks detected via webcam feed.
+H5. and landmarks detected via webcam feed.
 
-Recognized gestures converted to text and displayed in real-time.
+6. Recognized gestures converted to text and displayed in real-time.
 
-Node.js web interface for user interaction.
+7. Node.js web interface for user interaction.
 
 ## Results
 
-Alphabet recognition accuracy: 99.3%.
+- Alphabet recognition accuracy: 99.3%.
 
-Gesture classification accuracy: 99.2%.
+- Gesture classification accuracy: 99.2%.
 
-Lower false positives than traditional approaches.
+- Lower false positives than traditional approaches.
 
 ## Sample Output
 
@@ -70,30 +70,30 @@ Displays recognized gesture text on screen through a real-time webcam feed.
 
 ## Dataset
 
-Self-collected dataset using webcam.
+- Self-collected dataset using webcam.
 
-Includes ASL alphabets A-Z and common gestures like "Hello", "Thank you", "Eat", "Goodbye".
+- Includes ASL alphabets A-Z and common gestures like "Hello", "Thank you", "Eat", "Goodbye".
 
-Preprocessed images saved as grayscale CSV data.
+- Preprocessed images saved as grayscale CSV data.
 
 ## Future Enhancements
 
-Extend model to continuous sign language recognition (CSLR).
+- Extend model to continuous sign language recognition (CSLR).
 
-Integrate text-to-speech support for better accessibility.
+- Integrate text-to-speech support for better accessibility.
 
-Add support for digits and more regional sign languages.
+- Add support for digits and more regional sign languages.
 
 
 ## Clone the repository
 
-Install dependencies using requirements.txt.
+- Install dependencies using requirements.txt.
 
-Train model or load pretrained weights.
+- Train model or load pretrained weights.
 
-Launch Node.js web app.
+- Launch Node.js web app.
 
-Use webcam to test gesture recognition.
+- Use webcam to test gesture recognition.
 
 ## Authors
 
