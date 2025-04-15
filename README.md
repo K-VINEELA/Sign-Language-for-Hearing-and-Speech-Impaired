@@ -1,6 +1,6 @@
 # Sign-Language-for-Hearing-and-Speech-Impaired
 
-Study on Recognition of Sign Language for Hearing and Speech Impaired
+
 
 ## Overview
 
@@ -22,79 +22,78 @@ High model accuracy using CNN, ANN, LSTM, Random Forest, and XGBoost.
 
 ## Technologies Used
 
-Programming: Python, JavaScript
+Programming: Python, JavaScript.
 
-Libraries/Frameworks: OpenCV, TensorFlow, Keras, Pandas, Power Query
+Libraries/Frameworks: OpenCV, TensorFlow, Keras, Pandas, Power Query.
 
-Machine Learning Models: CNN, ANN, LSTM, Random Forest, XGBoost
+Machine Learning Models: CNN, ANN, LSTM, Random Forest, XGBoost.
 
-Deployment: Node.js web application
+Deployment: Node.js web application.
 
 ## Methodology
 
-Image Processing
+Image Processing,
 
-Captured hand gesture images using webcam
+Captured hand gesture images using webcam.
 
-Applied HSV masking and grayscale conversion
+Applied HSV masking and grayscale conversion.
 
-Resized to 28x28 and normalized before storing in CSV format
+Resized to 28x28 and normalized before storing in CSV format.
 
 ## Model Creation
 
-CNN used as the core model for image classification
+CNN used as the core model for image classification.
 
-Compared performance with Random Forest, XGBoost, LSTM, and ANN
+Compared performance with Random Forest, XGBoost, LSTM, and ANN.
 
-Used Keras for model building; trained on 85% of data, tested on 15%
+Used Keras for model building; trained on 85% of data, tested on 15%.
 
-Real-Time Application
+Real-Time Application.
 
-Hand landmarks detected via webcam feed
+Hand landmarks detected via webcam feed.
 
-Recognized gestures converted to text and displayed in real-time
+Recognized gestures converted to text and displayed in real-time.
 
-Node.js web interface for user interaction
+Node.js web interface for user interaction.
 
 ## Results
 
-Alphabet recognition accuracy: 99.3%
+Alphabet recognition accuracy: 99.3%.
 
-Gesture classification accuracy: 99.2%
+Gesture classification accuracy: 99.2%.
 
-Lower false positives than traditional approaches
+Lower false positives than traditional approaches.
 
-Sample Output
+## Sample Output
 
 Displays recognized gesture text on screen through a real-time webcam feed.
 
 ## Dataset
 
-Self-collected dataset using webcam
+Self-collected dataset using webcam.
 
-Includes ASL alphabets A-Z and common gestures like "Hello", "Thank you", "Eat", "Goodbye"
+Includes ASL alphabets A-Z and common gestures like "Hello", "Thank you", "Eat", "Goodbye".
 
-Preprocessed images saved as grayscale CSV data
+Preprocessed images saved as grayscale CSV data.
 
 ## Future Enhancements
 
-Extend model to continuous sign language recognition (CSLR)
+Extend model to continuous sign language recognition (CSLR).
 
-Integrate text-to-speech support for better accessibility
+Integrate text-to-speech support for better accessibility.
 
-Add support for digits and more regional sign languages
+Add support for digits and more regional sign languages.
 
-How to Run
 
 ## Clone the repository
 
-Install dependencies using requirements.txt
+Install dependencies using requirements.txt.
 
-Train model or load pretrained weights
+Train model or load pretrained weights.
 
-Launch Node.js web app
+Launch Node.js web app.
 
-Use webcam to test gesture recognition
+Use webcam to test gesture recognition.
 
 ## Authors
 
