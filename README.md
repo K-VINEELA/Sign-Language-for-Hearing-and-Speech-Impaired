@@ -50,7 +50,7 @@ Communication is a basic human need, and for individuals who are deaf or mute, e
 
 4. Real-Time Application.
 
-H5. and landmarks detected via webcam feed.
+5. and landmarks detected via webcam feed.
 
 6. Recognized gestures converted to text and displayed in real-time.
 
